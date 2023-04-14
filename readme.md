@@ -103,7 +103,14 @@ $ yarn module-common:android || yarn module-common:ios
 # Start the BFF
 $ yarn bff:dev
 ```
+## 📹 Vídeos referência
 
+- [Nest com a rocketseat](https://www.youtube.com/watch?v=TRa55WbWnvQ)
+- [Redux toolkit](https://www.youtube.com/watch?v=mT8nFaFyJnw)
+- [Typescript/React - Redux Toolkit](https://www.youtube.com/watch?v=eFh2Kr9hfyo)
+- [Gerenciando componentes React com Lerna](https://www.youtube.com/watch?v=mBD8HrxR6Nk)
+- [How to setup React Monorepo](https://www.youtube.com/watch?v=zQUpNa1hZIA)
+- [Expo Dev Client](https://www.youtube.com/watch?v=ania6LCs9YI)
 
 [yarn]: https://classic.yarnpkg.com/lang/en/docs/workspaces/
 [lerna]: https://lerna.js.org/
