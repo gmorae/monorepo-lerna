@@ -1,0 +1,34 @@
+{
+  "name": "orbitall-core",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/apps/*",
+    "packages/modules/*"
+  ],
+  "scripts": {
+    "dev:bff": "yarn workspace @orbitall-core/bff dev",
+    "app:ios": "yarn workspace @orbitall-core/app ios",
+    "app:android": "yarn workspace @orbitall-core/app android",
+    "app:start": "yarn workspace @orbitall-core/app start",
+    "module-common:ios": "yarn workspace @orbitall-core/module-common ios",
+    "module-common:android": "yarn workspace @orbitall-core/module-common android",
+    "module-common:start": "yarn workspace @orbitall-core/module-common start",
+    "bff:dev": "yarn workspace @orbitall-core/bff start:dev"
+  },
+  "devDependencies": {
+    "expo-yarn-workspaces": "^2.1.0",
+    "lerna": "^6.6.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^17.4.2",
+    "@react-native-firebase/remote-config": "^17.4.2",
+    "@reduxjs/toolkit": "^1.9.3",
+    "axios": "^1.3.4",
+    "react-redux": "^8.0.5"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

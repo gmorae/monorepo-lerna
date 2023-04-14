@@ -1,0 +1,25 @@
+{
+  "name": "@orbitall-core/app",
+  "version": "1.0.0",
+  "main": "__generated__/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start -c --ios",
+    "web": "expo start --web",
+    "postinstall": "expo-yarn-workspaces postinstall"
+  },
+  "dependencies": {
+    "@orbitall-core/guards": "^1.0.0",
+    "@orbitall-core/module-common": "^1.0.0",
+    "@orbitall-core/store": "^1.0.0",
+    "expo": "~48.0.10",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

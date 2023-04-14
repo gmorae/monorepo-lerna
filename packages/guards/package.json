@@ -1,0 +1,9 @@
+{
+  "name": "@orbitall-core/guards",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "license": "MIT",
+  "dependencies": {
+    "@orbitall-core/module-common": "^1.0.0"
+  }
+}
